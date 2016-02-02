@@ -1,0 +1,77 @@
+<html>
+        <head>
+            <title>Report result </title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+            <style>
+                
+            </style>
+        </head>
+        <body>
+                <h1>WMS Checker results {{ date }}</h1>
+                {% for server in test_results %}
+
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                      <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ loop.index }}" aria-expanded="true" aria-controls="collapse-{{ loop.index }}">
+                          {% if server.title %}
+                          {{ server.title }} |
+                          {% endif %}
+                          {% if server.passed %}
+                          {{ server.url }} <span class="label label-success">Passed</span>
+                          {% else %}
+                          {{ server.url }} <span class="label label-danger">Failed</span>
+                          {% endif %}
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="collapse-{{ loop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                      <div class="panel-body">
+                        {% if server.exception %}
+                        <pre>
+                        {{ server.exception }}
+                        </pre>
+                        {% else %}
+                        <table class="table">
+                            <tr>
+                                <th>Passed</th>
+                                <th>Layer name</th>
+                                <th>Result</th>
+                            </tr>
+                            {% for layer in server.layers %}
+                            {% if server.layers[layer].is_image %} 
+                            <tr class="good">
+                                <td><span class="label label-success">Passed</span></td>
+                            {% else %}
+                            <tr class="bad">
+                                <td><span class="label label-danger">Failed</span></td>
+                            {% endif %}
+                                <td>{{ layer }}</td>
+                                <td>
+                                    {% if server.layers[layer].is_image %} 
+                                    <img src="data:image/png;base64,{{ server.layers[layer].content }}" />
+                                    {% else %}
+                                    {{ server.layers[layer].content }}
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </table>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+        </body>
+</html>

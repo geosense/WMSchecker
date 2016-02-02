@@ -1,0 +1,21 @@
+[
+    {
+        "title":"GP Klecany",
+        "url":"http://map.geosense.cz/cgi-bin/gp_klecany_cz_wms"
+    },
+    {
+        "title":"GP Klecany",
+        "url":"http://map.geosense.cz/cgi-bin/gp_klecany_cz_wms",
+        "layers": ["poz_bydliste_p", "zpvyuz_poz", "xxx", "poz_obec_zpvyuz"]
+    },
+    {
+        "url":"http://geoportal.gov.cz/web/guest/wms"
+    },
+    {
+        "url":"http://heis.vuv.cz/data/webmap/datovesady/spolecneinformace/html_wms.asp"
+    },
+    {
+        "title": "MS6 test",
+        "url": "http://www.geosense.cz/cgi-bin/gp_test-qgis_cz_wms_ms6"
+    }
+]
