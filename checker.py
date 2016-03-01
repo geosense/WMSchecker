@@ -23,7 +23,7 @@ __author__ = 'jachym.cepicky at geosense dot cz'
 __version__ = '1.0.0'
 
 import json
-from tqdm import tqdm
+#from tqdm import tqdm
 from owslib.wms import WebMapService
 from jinja2 import Environment, PackageLoader
 import base64
