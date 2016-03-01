@@ -1,4 +1,6 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#
 """Script for testing given OGC WMS services
 
     This program is free software: you can redistribute it and/or modify
@@ -30,8 +32,22 @@ import traceback
 import sys
 import logging
 import argparse
+from multiprocessing import Pool
+import uuid
+import sys
+import os
+import shutil
+import time
+import sqlite3
 
 FILE = 'urls.json'
+OUTPUT = ''
+FORMAT_TYPE = ''
+
+LOG='/tmp/checker.log'
+log_file = open(LOG, 'w')
+log_file.close()
+
 
 logging.basicConfig(level=logging.ERROR)
 
@@ -44,24 +60,35 @@ def test_layer(service, name):
     result = {}
     is_image = None
     data = None
-    if service.contents.has_key(name):
-        content = service.contents[name]
-        response = service.getmap(
-            layers=[name],
-            srs=content.boundingBox[-1],
-            bbox=content.boundingBox[:-1],
-            format='image/png',
-            size=[20, 20]
-        )
-        data = response.read()
+    if name in service.contents:
+        try:
+            content = service.contents[name]
+            response = service.getmap(
+                layers=[name],
+                srs=content.boundingBox[-1],
+                bbox=content.boundingBox[:-1],
+                format='image/png',
+                size=[20, 20]
+            )
+            data = response.read()
 
-        is_image = data[:8] == "\211PNG\r\n\032\n"
+            is_image = data[:8].find(b'PNG') > -1
 
-        if is_image:
-            data = base64.b64encode(data)
+            if is_image:
+                data = base64.b64encode(data).decode('utf-8')
+
+        except Exception as e:
+            data = traceback.format_exc()
     else:
         data = 'Layer "%s" is not available' % name
 
+    #print(service.url + "?service=wms&request=getmap&layers=" +
+    #            name +
+    #            "&srs=" + content.boundingBox[-1] +
+    #            "&version=1.0.0" +
+    #            "&bbox=" + ",".join([str(x) for x in content.boundingBox[:-1]]) +
+    #            "&format=image/png" +
+    #            "&width=20&height=20")
     result = {
         'is_image': is_image,
         'content': data
@@ -73,17 +100,19 @@ def test_layers(service, inlayers=None):
     """Test layers of given name from given WMS service
     """
 
-    layers = {}
     if not inlayers:
+        inlayers = []
         for name in service.contents:
-            layers[name] = test_layer(service, name)
-    else:
-        for name in inlayers:
-            layers[name] = test_layer(service, name)
+            inlayers.append(name)
+
+    layers = {}
+    for name in inlayers:
+        layers[name] = test_layer(service, name)
+
     return layers
 
 
-def test_service(record):
+def test_service(record, output, format_type):
     """Test given service based on configuration record
     dictionary with at least 'url' attribute
     """
@@ -92,6 +121,10 @@ def test_service(record):
     # version = '1.3.0'
     # if record.get('version'):
     #    version = record['version']
+
+    log_file = open(LOG, 'a')
+    log_file.write(url + "\n")
+    log_file.close()
 
     exception = None
     result = True
@@ -116,9 +149,10 @@ def test_service(record):
         for layer in layers:
             if not layers[layer]['is_image']:
                 result = False
-                break
+
 
     result = {
+        'id': str(uuid.uuid4()),
         'url': url,
         'title': title,
         'layers': layers,
@@ -126,7 +160,12 @@ def test_service(record):
         'exception': exception
     }
 
+    make_report(output, result, format_type)
+
     return result
+
+def run_test_service(record):
+    return test_service(record, OUTPUT, FORMAT_TYPE)
 
 
 def test_services(data):
@@ -142,15 +181,84 @@ def test_services(data):
     ]
     """
 
-    results = []
-    for record in tqdm(data):
-        service_result = test_service(record)
-        results.append(service_result)
+    global OUTPUT
 
+    conn = sqlite3.connect(os.path.join(OUTPUT, 'data.db'))
+    conn.execute("""
+        CREATE TABLE results (id varchar(255),
+                              url varchar (255),
+                              title varchar (255),
+                              passed boolean)
+        """)
+    conn.commit()
+    conn.close()
+
+    pool = Pool(processes=10)
+    results = pool.map(run_test_service, data)
+    #results = []
+    #for i in data:
+    #    results.append(run_test_service(i))
     return results
 
+def _get_data_fromdb(outdir):
 
-def make_report(outfile, results, outformat='html'):
+    conn = sqlite3.connect(os.path.join(outdir, 'data.db'))
+    out = conn.execute(" SELECT id, url, title, passed from results ")
+
+    data = []
+    for record in out.fetchall():
+        data.append({
+            'id': record[0],
+            'url': record[1],
+            'title': record[2],
+            'passed': record[3] == 'True'
+        })
+    conn.close()
+
+    return data
+
+
+def _write_index_json(outdir):
+
+    outfile = os.path.join(outdir, 'index.json')
+    data = _get_data_fromdb(outdir)
+
+    outfile_obj = open(outfile, 'w')
+    json.dump(data, outfile_obj, indent=4)
+    outfile_obj.close()
+
+def _write_index_html(outdir):
+
+    outfile = os.path.join(outdir, 'index.html')
+    data = _get_data_fromdb(outdir)
+
+    env = Environment(loader=PackageLoader('wmschecker', 'templates'))
+    report_template = env.get_template('index.html')
+    report = report_template.render(
+        date=datetime.datetime.strftime(
+            datetime.datetime.now(), '%Y-%m-%d %H:%M:%S'),
+        data=data
+    )
+
+    outfile_obj = open(outfile, 'w')
+    outfile_obj.write(report)
+    outfile_obj.close()
+
+
+def _write_db(outdir, result, outformat):
+    """Write index file"""
+
+    conn = sqlite3.connect(os.path.join(outdir, 'data.db'))
+    conn.execute("""
+        INSERT INTO
+            results (id, url, title, passed)
+        VALUES
+            ('%(id)s','%(url)s','%(title)s', '%(passed)s')
+    """ % result)
+    conn.commit()
+    conn.close()
+
+def make_report(outdir, result, outformat='html'):
     """Save output report to given outname file
     Default is stdout
     """
@@ -158,17 +266,25 @@ def make_report(outfile, results, outformat='html'):
     report = None
     if outformat == 'html':
         env = Environment(loader=PackageLoader('wmschecker', 'templates'))
-        report_template = env.get_template('report.html')
+        report_template = env.get_template('report_single.html')
         report = report_template.render(
             date=datetime.datetime.strftime(
                 datetime.datetime.now(), '%Y-%m-%d %H:%M:%S'),
-            test_results=results
+            server=result
         )
     else:
-        report = json.dumps(results)
+        report = json.dumps(result)
 
+    outfile = open(os.path.join(outdir, result['id']) + '.' + outformat, 'w')
     outfile.write(report)
     outfile.close()
+
+    _write_db(outdir, result, outformat)
+
+    if outformat == 'html':
+        _write_index_html(outdir)
+    else:
+        _write_index_json(outdir)
 
 
 def main():
@@ -186,10 +302,15 @@ def main():
     parser.add_argument('--url', help='Server URL')
     parser.add_argument('--layers', help='List of layers to be checked',
                         nargs='+')
-    parser.add_argument('--output', type=argparse.FileType('w'),
-                        help='Output file', required=True)
+    parser.add_argument('--output', type=str,
+                        help='Output directory', required=True)
 
     args = parser.parse_args()
+
+
+    if os.path.isdir(args.output):
+        shutil.rmtree(args.output)
+    os.mkdir(args.output)
 
     if not args.config and not args.url:
         sys.exit('''
@@ -208,18 +329,15 @@ def main():
         data = json.load(args.config)
         args.config.close()
 
-    results = test_services(data)
-    make_report(args.output, results, args.format)
-
-    general_result = True
-    for service in results:
-        if not service['passed']:
-            general_result = False
-
-    if general_result:
+    global OUTPUT
+    global FORMAT_TYPE
+    OUTPUT = args.output
+    FORMAT_TYPE = args.format
+    if not test_services(data):
         sys.exit(0)
     else:
-        sys.exit('Some tested services may fail. See output file')
+        sys.exit('Some tested services may fail. See output dir ' + OUTPUT)
+
 
 if __name__ == '__main__':
     main()
