@@ -43,6 +43,7 @@ import sqlite3
 FILE = 'urls.json'
 OUTPUT = ''
 FORMAT_TYPE = ''
+DATA_LENGTH = 0
 
 LOG='/tmp/checker.log'
 log_file = open(LOG, 'w')
@@ -142,6 +143,11 @@ def test_service(record, output, format_type):
         title = record['title']
 
     if service:
+
+        if record.get('use_service_url'):
+            method = next((getmap_method for getmap_method in service.getOperationByName('GetMap').methods if getmap_method['type'].lower() == 'get'))
+            method['url'] = service.url
+
         layers = None
         if 'layers' in record:
             layers = record['layers']
@@ -193,10 +199,10 @@ def test_services(data):
     conn.commit()
     conn.close()
 
-    pool = Pool(processes=10)
+    pool = Pool(processes=5)
     results = pool.map(run_test_service, data)
     #results = []
-    #for i in data:
+    #for i in data[:10]:
     #    results.append(run_test_service(i))
     return results
 
@@ -270,7 +276,8 @@ def make_report(outdir, result, outformat='html'):
         report = report_template.render(
             date=datetime.datetime.strftime(
                 datetime.datetime.now(), '%Y-%m-%d %H:%M:%S'),
-            server=result
+            server=result,
+            percent=len(result)/DATA_LENGTH
         )
     else:
         report = json.dumps(result)
@@ -280,6 +287,9 @@ def make_report(outdir, result, outformat='html'):
     outfile.close()
 
     _write_db(outdir, result, outformat)
+    write_file_output(outformat, outdir)
+
+def write_file_output(outformat, outdir):
 
     if outformat == 'html':
         _write_index_html(outdir)
@@ -331,9 +341,14 @@ def main():
 
     global OUTPUT
     global FORMAT_TYPE
+    global DATA_LENGTH
     OUTPUT = args.output
     FORMAT_TYPE = args.format
-    if not test_services(data):
+    DATA_LENGTH = len(data)
+
+    ok = test_services(data)
+    write_file_output(FORMAT_TYPE, OUTPUT)
+    if not ok:
         sys.exit(0)
     else:
         sys.exit('Some tested services may fail. See output dir ' + OUTPUT)
