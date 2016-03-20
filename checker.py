@@ -251,18 +251,26 @@ def _write_index_html(outdir):
     outfile_obj.close()
 
 
-def _write_db(outdir, result, outformat):
+def _write_db(outdir, result, outformat, count=0):
     """Write index file"""
 
-    conn = sqlite3.connect(os.path.join(outdir, 'data.db'))
-    conn.execute("""
-        INSERT INTO
-            results (id, url, title, passed)
-        VALUES
-            ('%(id)s','%(url)s','%(title)s', '%(passed)s')
-    """ % result)
-    conn.commit()
-    conn.close()
+    if count < 10:
+        try:
+            conn = sqlite3.connect(os.path.join(outdir, 'data.db'))
+            conn.execute("""
+                INSERT INTO
+                    results (id, url, title, passed)
+                VALUES
+                    ('%(id)s','%(url)s','%(title)s', '%(passed)s')
+            """ % result)
+            conn.commit()
+            conn.close()
+        except sqlite3.OperationalError as e:
+            time.sleep(1)
+            count += 1
+            _write_db(outdir, result, outformat, count)
+    else:
+        pass
 
 def make_report(outdir, result, outformat='html'):
     """Save output report to given outname file
