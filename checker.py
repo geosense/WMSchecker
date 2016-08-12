@@ -270,6 +270,8 @@ def _write_db(outdir, result, outformat, count=0):
             count += 1
             _write_db(outdir, result, outformat, count)
     else:
+        logging.error('Could not write to database, but passing: ' +
+                    '[%(id)s, %(url)s, %(title)s, %(passed)s]' % result)
         pass
 
 def make_report(outdir, result, outformat='html'):
@@ -357,9 +359,7 @@ def main():
     ok = test_services(data)
     write_file_output(FORMAT_TYPE, OUTPUT)
     if not ok:
-        sys.exit(0)
-    else:
-        sys.exit('Some tested services may fail. See output dir ' + OUTPUT)
+        sys.stderr.write('Some tested services may fail. See output dir %s\n'  % OUTPUT)
 
 
 if __name__ == '__main__':
