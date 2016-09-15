@@ -201,6 +201,7 @@ def test_services(data):
 
     pool = Pool(processes=5)
     results = pool.map(run_test_service, data)
+    print(json.dumps(results, indent=4))
     #results = []
     #for i in data[:10]:
     #    results.append(run_test_service(i))
@@ -240,10 +241,13 @@ def _write_index_html(outdir):
 
     env = Environment(loader=PackageLoader('wmschecker', 'templates'))
     report_template = env.get_template('index.html')
+    number_failed = len(filter(lambda service: not service['passed'], data))
     report = report_template.render(
         date=datetime.datetime.strftime(
             datetime.datetime.now(), '%Y-%m-%d %H:%M:%S'),
-        data=data
+        data=data,
+        total=len(data),
+        number_of_failed = number_failed
     )
 
     outfile_obj = open(outfile, 'w')

@@ -18,14 +18,19 @@
         <body>
                 <h1>WMS Checker results {{ date }}</h1>
                 <h2>Failed URLs</h2>
-                <a href="#allresults">All results</a>
+                <div>
+                        Result {{ number_of_failed }} services failed out of {{ total }}
+                </div>
+                <div>
+                        <a href="#allresults">All results</a>
+                </div>
                 <ol>
                 {% for server in data %}
                   {% if not server.passed %}
                     <li> 
                        <a href="{{ server.id }}.html">
-                       {% if server.title %}
-                       {{ server.title }} |
+                       {% if server.title != 'None' %}
+                               {{ server.title }} |
                        {% endif %}
                        {{ server.url }}
                        </a>
@@ -39,7 +44,7 @@
                 <ol>
                 {% for server in data %}
                     <li> <a name="url{{ server.id }}" href="{{ server.id}}.html" aria-expanded="true" >
-                          {% if server.title %}
+                          {% if server.title != 'None' %}
                           {{ server.title }} |
                           {% endif %}
                           {% if server.passed %}
