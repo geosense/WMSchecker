@@ -25,9 +25,9 @@
                           {{ server.title }} |
                           {% endif %}
                           {% if server.passed %}
-                          {{ server.url }} <span class="label label-success">Passed</span>
+                          <a href="{{ server.url }}?service=WMS&request=GetCapabilities">{{ server.url }}</a> <span class="label label-success">Passed</span>
                           {% else %}
-                          {{ server.url }} <span class="label label-danger">Failed</span>
+                          <a href="{{ server.url }}?service=WMS&request=GetCapabilities">{{ server.url }}</a> <span class="label label-danger">Failed</span>
                           {% endif %}
                       </h4>
                     </div>

@@ -201,6 +201,7 @@ def test_services(data):
 
     pool = Pool(processes=5)
     results = pool.map(run_test_service, data)
+    results.sort(key=lambda item: item['url'])
     #results = []
     #for i in data[:10]:
     #    results.append(run_test_service(i))
