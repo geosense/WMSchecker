@@ -1,654 +1,25 @@
 [
     {
         "layers": [
-            "0"
+            "1"
         ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_II_vojenske_mapovani/MapServer/WMSServer?"
+        "url": "http://mpp.praha.eu/arcgis/services/MAP/letecke_snimky_posledni_snimkovani/MapServer/WMSServer"
     },
     {
         "layers": [
-            "KN_I",
-            "KN",
-            "RST_PK",
-            "RST_PK_I",
-            "prehledky",
-            "prehledka_kat_uz",
-            "vb",
-            "bp"
-        ],
-        "url": "http://services.cuzk.cz/wms/wms.asp?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_III_vojenske_mapovani/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "3",
-            "19",
-            "7",
-            "16",
-            "12",
-            "13",
-            "2",
-            "8",
-            "25"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_t_popisky/mapserver/WMSServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_53/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_09/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_03/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "VP_DKM",
-            "VP_KMD",
-            "GL_KMD",
-            "GP_UKM",
-            "GB_DEF_BODY",
-            "GT_KMD",
-            "VL_DKM",
-            "GL_UKM",
-            "GT_UKM",
-            "GP_KU_JM",
-            "VT_DKM"
-        ],
-        "url": "http://up.kr-jihomoravsky.cz/WMS_JMK_UKM_F/WMService.aspx?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_06/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "GR_ORTFOTORGB"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_ORTOFOTO_PUB/WMService.aspx?"
-    },
-    {
-        "layers": [
-            "LPIS4_VINICE_VT_4",
-            "EROZE_09_7",
-            "LPIS_FB_KUL",
-            "LPIS_KP4",
-            "VRSTEVNICE_5M_V2_POPIS",
-            "LPIS_FB_ZPUS",
-            "LPIS_FB_VYMERA_TISK",
-            "ODTOKLINIE_V2",
-            "BPEJ_WMS",
-            "LPIS_KP4_KOD",
-            "LPIS_FB4",
-            "EROZE_09_7_HR",
-            "LPIS_FB_EKO",
-            "MELIORACE_WMS",
-            "LPIS_KP4_PASMO",
-            "LOUKA_MV_4",
-            "LPIS_NIT_ZRO_WMS",
-            "CHKO_MOKR_4",
-            "PASTVINA_LOUKA_MV_4",
-            "EROZE_09_8",
-            "LPIS_FB_ULOZ_HNOJE_K_WMS",
-            "OPVZ",
-            "PASTVINA_4",
-            "VRSTEVNICE_2M_V2_POPIS",
-            "ODTOKLINIE_FB_V8",
-            "VYNOSOVE_HLADINY_BPEJ_WMS",
-            "PB_4",
-            "VYNOSOVE_HLADINY_DPB_WMS",
-            "BPEJ_OHRER_WMS",
-            "LPIS_FB4_KOD"
-        ],
-        "url": "http://eagri.cz/public/app/wms/plpis.fcgi"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_automapy/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "KN_VB_DEBO_PAR",
-            "KN_GL_KMD_PAR_VK",
-            "SP6_KRAJ_JMK2016",
-            "KN_GT_KMD_PAR",
-            "KN_VL_DKM_VK",
-            "KN_GL_UKM",
-            "KN_GT_UKM",
-            "KN_VT_DKM",
-            "KN_PREHLED_KMD",
-            "KN_GP_UKM",
-            "SP1_KU_JMK2016",
-            "KN_VP_DKM",
-            "KN_PREHLED_DKM",
-            "KN_GL_KMD_PAR"
-        ],
-        "url": "http://ms.kr-jihomoravsky.cz/WMS_JMK_UKM/service.svc/get?"
-    },
-    {
-        "layers": [
-            "DejTip"
-        ],
-        "url": "http://dejtip.eu/WMS_DEJTIP_E/Request.aspx"
-    },
-    {
-        "layers": [
-            "3",
-            "2",
+            "11",
+            "10",
             "0",
-            "1",
-            "4"
-        ],
-        "url": "https://gis.nature.cz/arcgis/services/UzemniOchrana/ChranUzemi/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "4270",
-            "13",
-            "35",
-            "10",
-            "12"
-        ],
-        "url": "http://195.113.178.19/html/WMS_orto.dll?"
-    },
-    {
-        "layers": [
-            "Honitby"
-        ],
-        "url": "http://geoportal.uhul.cz/wms_mysl/service.svc/get"
-    },
-    {
-        "layers": [
-            "Mapa_lesnich_vegetacnich_stupnu",
-            "Mapa_typologicka",
-            "Mapa_prehledova",
-            "Mapa_dopravni",
-            "Mapa_deklarovanych_funkci",
-            "Mapa_dlouhodobych_opatreni_ochrany_lesa",
-            "Mapa_cilovych_hospodarskych_souboru",
-            "Mapa_uzemnich_systemu_ekologicke_stability",
-            "Prirodni_lesni_oblast",
-            "Mapa_funkcniho_potencialu",
-            "PHO",
-            "VKP",
-            "Biokoridor_L_NF",
-            "Biokoridor_L_F",
-            "Biokoridor_NR_NF",
-            "PALZ",
-            "Biocentrum_USES",
-            "Biokoridor_R_NF",
-            "Biokoridor_R_F",
-            "Biokoridor_NR_F",
-            "Les_OPRL"
-        ],
-        "url": "http://geoportal.uhul.cz/wms_oprl/service.svc/get"
-    },
-    {
-        "layers": [
-            "56",
-            "59",
-            "49",
-            "33",
-            "53",
-            "43",
-            "36",
-            "39",
-            "46",
-            "19",
-            "29",
-            "31",
-            "37",
-            "15",
-            "52",
-            "18",
-            "22",
-            "25",
-            "26",
-            "16",
-            "58",
-            "17",
-            "23",
-            "54",
-            "14",
-            "38",
-            "47",
-            "44",
-            "28",
-            "51",
-            "11",
-            "55",
-            "27",
-            "35",
-            "48",
-            "24",
-            "12",
-            "13",
-            "41",
-            "21",
-            "34",
-            "57",
-            "45",
-            "32",
-            "42"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_zdroje_imisi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "9",
-            "10",
             "3",
-            "7",
-            "1",
-            "5",
-            "11",
-            "6",
-            "12",
-            "4",
-            "13",
             "2",
+            "5",
+            "4",
+            "7",
+            "6",
+            "9",
             "8"
         ],
-        "url": "http://geoportal.jsdi.cz/ArcGIS/services/geoportal_rsd_wms1/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "isvs_opvz_nadr",
-            "isvs_zapluz_100",
-            "isvs_zapluz_az",
-            "isvs_opvz",
-            "isvs_zapluz_5",
-            "isvs_zapluz_20",
-            "isvs_chopav",
-            "isvs_rybvod",
-            "isvs_stavupzv_hl_che",
-            "isvs_stavupzv_za_kva",
-            "isvs_stavupzv_za_che",
-            "isvs_stavupovr_eko",
-            "isvs_stavupzv_sv_che",
-            "isvs_stavupovr_che",
-            "isvs_stavupzv_sv_kva",
-            "isvs_koupobl",
-            "isvs_stavupzv_hl_kva",
-            "isvs_upzv_za",
-            " isvs_opvz_nadr",
-            "isvs_stavupovj_che",
-            "isvs_upovj",
-            "isvs_citobl",
-            "isvs_zranobl",
-            "isvs_upzv_sv",
-            "isvs_upovr",
-            "isvs_upzv_hl",
-            "isvs_stavupovj_eko"
-        ],
-        "url": "http://heis.vuv.cz/data/webmap/wms.dll"
-    },
-    {
-        "layers": [
-            "7",
-            "3",
-            "1",
-            "2",
-            "4",
-            "5",
-            "6",
-            "8"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_chranena_uzemi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "sl",
-            "tro",
-            "k",
-            "h",
-            "pt",
-            "kr",
-            "e",
-            " sl",
-            "skeletovitost"
-        ],
-        "url": "http://geoportal.vumop.cz/wms_vumop/zchbpej.asp"
-    },
-    {
-        "layers": [
-            "1",
-            "2",
-            "0"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/Natura2000/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/MAP/mimovegetacni_snimkovani_cache/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "29",
-            "1",
-            "0",
-            "24"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/MAP/Ortofotomapa_archiv/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "27",
-            "26",
-            "20",
-            "30",
-            "12"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/MAP/Ortofotomapa_archiv/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "429",
-            "266",
-            "439",
-            "435",
-            "438",
-            "426",
-            "427",
-            "425",
-            "277",
-            "434",
-            "437",
-            "265",
-            "393",
-            "271",
-            "275",
-            "428",
-            "264",
-            "436",
-            "450",
-            "451",
-            "283",
-            "286",
-            "449",
-            "448",
-            "414"
-        ],
-        "url": "http://ags.kr-plzensky.cz/arcgis/services/UAP/UAP_ORP_vse/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "neprav\u00e9 barvy",
-            "ndvi kompozit",
-            "ndvi"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy_indexy.map"
-    },
-    {
-        "layers": [
-            "RAS_MAPA_POROSTNI"
-        ],
-        "url": "http://geoportal.lesycr.cz:80/WMS_LHP/service.svc/get?&username=dataprocon&password=dataprocon1"
-    },
-    {
-        "layers": [
-            "ortofoto"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/chotetov.map"
-    },
-    {
-        "layers": [
-            "ortofoto"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy.map"
-    },
-    {
-        "layers": [
-            "ortofoto_m"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy_m.map"
-    },
-    {
-        "layers": [
-            "neprav\u00e9 barvy mal\u00fd",
-            "ndvi kompozit mal\u00fd",
-            "ndvi mal\u00fd"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy_indexy_m.map"
-    },
-    {
-        "layers": [
-            "Nazvy_ulic",
-            "Polohove_bodove_pole",
-            "Vyskove_bodove_pole",
-            "Stanice_site_CZEPOS",
-            "Tihove_bodove_pole"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_BODPOLE/WMService.aspx"
-    },
-    {
-        "layers": [
-            "8",
-            "2",
-            "32",
-            "31",
-            "8;",
-            "22",
-            "23",
-            "20"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/Udaje_o_uzemi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "1"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Suroviny/dobyvaci_prostory/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "30",
-            "28",
-            "9",
-            "21",
-            "15",
-            "18",
-            "4",
-            "33",
-            "6",
-            "12",
-            "25",
-            "32",
-            "\t28"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Suroviny/Surovinovy_informacni_system/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "2",
-            "Ortofoto 2012"
-        ],
-        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/Podklad/PolohopisRastr/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "GT_AL016",
-            "Rozvodne_site_a_produktovody",
-            "Komunikace"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_ZABAGED_PUB/WMService.aspx"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_12/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_klima/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1",
-            "2"
-        ],
-        "url": "https://gis.nature.cz/arcgis/services/UzemniOchrana/Natura2000/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "wms_q20",
-            "wmsnadr",
-            "wmsvt",
-            "wms_q100",
-            "wms_q5",
-            "wmszrano",
-            "wms_chopav",
-            "wmskoupobl",
-            "wms_akz",
-            "wms_upzvsv",
-            "wms_upovj",
-            "wms_upzvzk",
-            "wms_opvz"
-        ],
-        "url": "http://heis.vuv.cz/data/webmap/isapi.dll"
-    },
-    {
-        "layers": [
-            "0",
-            "3",
-            "1",
-            "2",
-            "4"
-        ],
-        "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_chu"
-    },
-    {
-        "layers": [
-            "PM_NP_Sumava",
-            "PM_LHO_Susice",
-            "PM_Coolidge",
-            "PM_Mesto_Vimperk",
-            "PM_Obec_Nicov",
-            "PM_LHO_Vimperk",
-            "PM_Obec_Zbytiny",
-            "PM_Obec_Strazny",
-            "PM_Obec_SvataMari",
-            "PM_CHKO_Sumava",
-            "PM_LHO_Prachatice",
-            "PM_Obec_Stachy",
-            "POMOCNA_NP_Sumava",
-            "PM_LZBoubin_Vimperk",
-            "PM_LHO_Klatovy",
-            "PM_Mesto_Volary",
-            "obrysovka",
-            "PM_Obec_Zablati",
-            "obrysovky"
-        ],
-        "url": "http://mapy.npsumava.cz/cgi-bin/wlhp"
-    },
-    {
-        "layers": [
-            "0",
-            "1",
-            "2"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Geologie/geocr50/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "wtopo",
-            "orto2015_1m",
-            "orto2016_1m",
-            "orto2007",
-            "wdp_planpece",
-            "orto2010_1m",
-            "orto2014_1m",
-            "wtypologie"
-        ],
-        "url": "http://mapy.npsumava.cz/cgi-bin/wlesis"
-    },
-    {
-        "layers": [
-            "GR_TEREN"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_TEREN/WMService.aspx?"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "https://gis.nature.cz/arcgis/services/PamatneStromy/PamStrom/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "LHP_2017_Cerna",
-            "LHP_2017_CK",
-            "LHP_2017_Horice",
-            "LHO_2018_Vimperk"
-        ],
-        "url": "http://mapy.npsumava.cz/cgi-bin/wx159"
-    },
-    {
-        "layers": [
-            "22",
-            "23",
-            "24",
-            "9",
-            "17",
-            "10",
-            "15",
-            "14",
-            "16"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_arccr/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_typy_pud/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/radon500/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "R_zonace_CHKO",
-            "R_VHM",
-            "dp_planpece_navrh"
-        ],
-        "url": "http://mapy.npsumava.cz/cgi-bin/wms_interni"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/PamatneStromy/PamStrom/MapServer/WmsServer"
+        "url": "http://geoportal.jsdi.cz/ArcGIS/services/geoportal_rsd_wms2/MapServer/WMSServer?"
     },
     {
         "layers": [
@@ -658,1386 +29,45 @@
     },
     {
         "layers": [
-            "0",
-            "2",
-            "1",
-            "3"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/Biotopy/PrirBiotopHabitat/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "ortofoto"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/skrchov.map"
-    },
-    {
-        "layers": [
-            "LC.LandCover.CORINE.CLC12_CZ",
-            "LC.LandCover.CORINE.CHA12_CZ",
-            "LC.LandCover.CORINE.CLC06R_CZ"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_corine_2012/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "GR_ZM10"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_ZM10_PUB/WMService.aspx"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG1mil/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "vee",
-            "zpfvee",
-            "voek",
-            "veek",
-            "zpfveek"
-        ],
-        "url": "http://geoportal.vumop.cz/wms_vumop/eroze.asp"
-    },
-    {
-        "layers": [
-            "0",
-            "3",
-            "1",
-            "2"
-        ],
-        "url": "https://gis.nature.cz/arcgis/services/Biotopy/PrirBiotopHabitat/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "DG.KatastralniUzemi",
-            "DG.DruhyKatastralniMapy.OblastAnalogova",
-            "DG.DruhyKatastralniMapy.OblastKm-d",
-            "DG.DruhyKatastralniMapy.OblastDkmKmd"
-        ],
-        "url": "http://services.cuzk.cz/wms/local-dg-wms.asp?"
-    },
-    {
-        "layers": [
-            "R_UP_Zablati",
-            "R_UP_Hamry",
-            "R_UP_HorskaKvilda",
-            "R_UP_Zdikov",
-            "R_UP_BorovaLada",
-            "R_UP_Kvilda",
-            "R_UP_Zbytiny",
-            "R_UP_Hartmanice"
-        ],
-        "url": "http://mapy.npsumava.cz/cgi-bin/wuzemniplany"
-    },
-    {
-        "layers": [
-            "RAS_MAPA_POROSTNI",
-            "RAS_MAPA_OBRYSOVA"
-        ],
-        "url": "http://geoportal.lesycr.cz/GWM_WMS_LHP_N/service.svc/get?"
-    },
-    {
-        "layers": [
-            "1",
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/Pudni_typy/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "11"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/PUP/Uzemni_plan_platny/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "9",
-            "6",
-            "11",
-            "5",
-            "8"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/PAM/Pamatky/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "1",
-            "3",
-            "4"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/ChranUzemi/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "GT_SPH_ORP",
-            "GP_SPH_ORP",
-            "GP_SPH_ZSJ",
-            "GP_SPH_OPU",
-            "GT_SPH_ZSJ",
-            "GT_SPH_OPU"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_SPH_PUB/WMService.aspx"
-    },
-    {
-        "layers": [
-            "9",
-            "17",
-            "21",
-            "10",
-            "3",
-            "23",
-            "15",
-            "18",
-            "1",
-            "20",
-            "5",
-            "11",
-            "14",
-            "6",
-            "24",
-            "4",
-            "2",
-            "8"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_hluk/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "D00210C4",
-            "BF4A01BF",
-            "F8D5AF76",
-            "4CCEF752",
-            "4FD76059",
-            "6272839E",
-            "39E98A0E",
-            "5928AD06",
-            "099FC851",
-            "A3A4AE60",
-            "33BEBB5B",
-            "55A5C289",
-            "0018E925",
-            "D1644376",
-            "2BBEB8DD",
-            "A01CDDE3",
-            "3DCEBA57",
-            "12F7F239",
-            "0F28ACA9",
-            "80F1CD55",
-            "A0415487",
-            "C02AC12B",
-            "1F68BC33",
-            "D5D1EC36",
-            "AE2D3D17",
-            "030C2DEE",
-            "77A08EC2",
-            "1778F549",
-            "805B7DDE",
-            "18A94EC5",
-            "7BFB795E",
-            "378C06C7",
-            "9460B774",
-            "E9BDB5E0",
-            "E705A1AE",
-            "9A8BA5DB",
-            "0DD6C509",
-            "51C17F74",
-            "36C13514",
-            "75E4B650",
-            "3A8D486D",
-            "CEF70EE0",
-            "C5DB5FE6",
-            "3E8692C4",
-            "A89FB388",
-            "8EE7BE5C",
-            "B2EBCD8D",
-            "7F9EB1B9"
-        ],
-        "url": "http://marushkapub.liberec.cz/handlers/wms.ashx"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/poddolovana_uzemi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "24",
-            "5"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/Udaje_o_uzemi/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "1"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/MAP/letecke_snimky_posledni_snimkovani/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "bpej"
-        ],
-        "url": "http:///cgi-bin/gp_krnsko_cz_wms"
-    },
-    {
-        "layers": [
-            "ku_prehled",
-            "ku_prehled_okoli"
-        ],
-        "url": "http:///cgi-bin/gp_krnsko_cz_qgis_wms"
-    },
-    {
-        "layers": [
-            "1"
-        ],
-        "url": "http://giswa1.mag.mepnet.cz/arcgis/services/MAP/Ortofotomapa_archiv/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/IG_rajony/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "3",
-            "1",
-            "2"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/AOPKCR/Pracoviste/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/geomagnetic_field/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "10",
-            "31",
-            "19",
-            "28",
-            "37",
-            "7",
-            "34",
-            "43",
-            "4",
-            "22",
-            "13",
-            "25",
-            "16",
-            "40"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/VAV_biomasa/vav_biomasa_vynosy/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0",
-            "1",
-            "2"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/kvarter/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "7",
-            "0",
-            "1",
-            "5",
-            "6",
-            "4",
-            "2",
-            "8"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/Biotopy/FormSkupinaPrirBiotop/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "1",
-            "2"
-        ],
-        "url": " \thttp://gis.nature.cz/arcgis/services/UzemniOchrana/Natura2000/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/radiometric_field/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "9",
-            "10",
-            "3",
-            "7",
-            "0",
-            "5",
-            "11",
-            "6",
-            "4",
-            "2",
-            "8"
-        ],
-        "url": "http://geoportal.jsdi.cz/ArcGIS/services/geoportal_rsd_wms2/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_emas/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "6",
-            "1",
-            "2",
-            "5",
-            "4"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/INSPIRE/III_7_CHMU_voda/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "7",
-            "1",
-            "5",
-            "6",
-            "4",
-            "2"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_geomorfologie/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "0",
-            "1",
-            "5",
-            "6",
-            "4",
-            "2"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_ippc/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "4"
-        ],
-        "url": " \thttp://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_chranena_uzemi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "2",
-            "1",
-            "3",
-            "0",
-            "4"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_vybavenost_obci/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_adresy_ulice/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/Oznamena_dulni_dila/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "0",
-            "15",
-            "1",
-            "5",
-            "6",
-            "4",
-            "2"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Geochemicka_prozkoumanost/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_hrbitovy_pohrebiste/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "LC.LandCover.CORINE.zmena.2000.2006",
-            "LC.LandCover.CORINE.1990",
-            "LC.LandCover.CORINE.2000",
-            "LC.LandCover.CORINE.zmena.1990.2000"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_corine/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "9"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_hust_zalid/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/INSPIRE/II_2_VUKOZ_historicke_zahrady/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/AplikovanaOchrana/DopravaObojzivelnici/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "9",
-            "17",
-            "21",
-            "10",
-            "3",
-            "23",
-            "19",
-            "7",
-            "18",
-            "15",
-            "1",
-            "14",
-            "5",
-            "11",
-            "6",
-            "22",
-            "13",
-            "2"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_corine_zmeny/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_ppv/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/INSPIRE/III_14_CHMU_meteo_stanice/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_zeleznice_stanice/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "18",
-            "21",
-            "20",
-            "19"
-        ],
-        "url": "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_refbody/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "15",
-            "14",
-            "16"
-        ],
-        "url": "https://gis.nature.cz/arcgis/services/UzemneAnalytickePodklady/UdajeOUzemi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "3",
-            "1",
-            "2",
-            "4",
-            "8"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_envisec/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0",
-            "1",
-            "2"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/GM500K/MapServer/WMSServer"
-    },
-    {
-        "layers": [
             "0"
         ],
         "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Hydrogeologicka_pozkoumanost/MapServer/WMSServer"
     },
     {
         "layers": [
-            "3",
+            "2E1E59CE"
+        ],
+        "url": "http://jdtmzk.technickamapa.cz/wms/Marushka/handlers/wms.ashx?username=wms_chropyne&password=chropyne141"
+    },
+    {
+        "layers": [
+            "1",
             "0",
-            "1",
-            "5",
-            "4",
-            "2"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_uhli/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "10",
-            "5",
-            "11",
-            "6",
-            "4",
-            "2"
-        ],
-        "url": "https://geoportal.npu.cz/arcgis/services/TematickeMapy/CP_UAP_PVO/MapServer/WMSServer"
-    },
-    {
-        "layers": [
             "3",
-            "6",
-            "1",
             "2",
-            "5"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Geofyzikalni_prozkoumanost/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/banske_mapy_public/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "9",
-            "17",
-            "10",
-            "7",
-            "18",
-            "15",
-            "14",
-            "12",
-            "13",
-            "16"
-        ],
-        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/ZivotniProstredi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_typy_pud/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1",
-            "2"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/AplikovanaOchrana/MigraceSavci/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_obyv_byt/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "3",
-            "1",
-            "2"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/GM2_5mil/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "aaa"
-        ],
-        "url": "seznam.cz"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_fytogeo/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_sekm/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_zdroje_prasnosti/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "7",
-            "1",
-            "5",
-            "6",
-            "2"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Vrtna_prozkoumanost/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/INSPIRE/III_14_CHMU_meteo_stanice/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1",
-            "2"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_urady/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/INSPIRE/I_9_MO_valecne_hroby/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "linie",
-            "zappar",
-            "popis_text",
-            "kladpar",
-            "parc_cisla"
-        ],
-        "url": "http://93.184.70.94:21880/cgi-bin/mapserv.fcgi"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG2mil/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG_rajony/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_vetrne_elektrarny/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "0",
-            "1",
             "5",
             "4",
-            "2"
-        ],
-        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/MezinarodOchrana/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "3",
-            "0",
-            "1",
-            "5",
-            "6",
-            "4",
-            "2"
+            "6"
         ],
         "url": "http://gis.nature.cz/arcgis/services/KladyASite/SouradSit/MapServer/WmsServer"
     },
     {
         "layers": [
-            "58"
-        ],
-        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/DatovySklad/SilnicniNehody/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "",
-            "SM_POPVRSTV",
-            "VSK_VRST_DOPLNKOVA",
-            "VSK_VRST_HLAVNI",
-            "VSK_VRST_ZESILENA"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_SM5V_PUB/WMService.aspx"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_skoly/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "10",
-            "31",
-            "19",
-            "28",
-            "7",
-            "34",
-            "4",
-            "22",
-            "13",
-            "25",
-            "16"
-        ],
-        "url": "http://geoportal.gov.cz/arcgis/services/VAV_biomasa/vav_biomasa_ceny/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "24",
-            "13"
-        ],
-        "url": "http://mpp.iprpraha.cz/arcgis/services/UAP/UAP_2014/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "0",
-            "3",
-            "1",
-            "2"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_typologie_krajiny/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG200K/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "3",
-            "2"
-        ],
-        "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_natura"
-    },
-    {
-        "layers": [
-            "aaa"
-        ],
-        "url": "www.seznam.cz"
-    },
-    {
-        "layers": [
-            "3",
-            "0",
-            "1",
-            "5",
-            "6",
-            "4",
-            "2"
-        ],
-        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/Hipostezky/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "9",
-            "7",
-            "6",
-            "4",
-            "2",
-            "8"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_fragmentace_krajiny/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "1"
-        ],
-        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/ZUR/RozvojoveOblasti/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "AU.2ndOrder.Kraj.AdministrativeUnitLabel",
-            "AU.2ndOrder.Kraj.AdministrativeBoundary",
-            "AU.3rdOrder.Okres"
-        ],
-        "url": "http://services.cuzk.cz/wms/local-ux-wms.asp?"
-    },
-    {
-        "layers": [
-            "_576573_Z1_HLV.hrr",
-            "_576166_10_zm2_KOV.hrr",
-            "_576573_133060_KOV.hrr",
-            "_576166_10_zm2_hlv.hrr",
-            "_576786_zm1_HLV.hrr",
-            "_rk_576786.hrr",
-            "_576786_zm1_KOV.hrr",
-            "_RK_576786_d.hrr",
-            "_576573_Z1_KOV.hrr"
-        ],
-        "url": "http://up.kr-kralovehradecky.cz/upd/_mapy/wms.dll?"
-    },
-    {
-        "layers": [
-            "_576182_112585_HLV.hrr",
-            "_576182_112585_KOV.hrr"
-        ],
-        "url": "http://up.kr-kralovehradecky.cz/upd/wms/?SERVICE=WMS&LANG=CS-CZ&"
-    },
-    {
-        "layers": [
-            "tro"
-        ],
-        "url": "http://geoportal.vumop.cz/wms_vumop/zchbpej.asp?"
-    },
-    {
-        "layers": [
-            "Vyskopis-vrstevnice",
-            "GT_CA030",
-            "GB_CA030"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_ZABAGED_PUB/WMService.aspx?"
-    },
-    {
-        "layers": [
-            "Polohove_bodove_pole",
-            "Vyskove_bodove_pole"
-        ],
-        "url": "http://geoportal.cuzk.cz/WMS_BODPOLE/service.svc/get?"
-    },
-    {
-        "layers": [
-            "osm"
-        ],
-        "url": "http://irs.gis-lab.info/?layers=osm&"
-    },
-    {
-        "layers": [
-            "psst",
-            "pssk",
-            "centr2",
-            "psjs",
-            "centr1",
-            "centr3"
-        ],
-        "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_pam_stromy"
-    },
-    {
-        "layers": [
-            "6",
-            "2",
-            "4"
-        ],
-        "url": "http://mapy.mag-ul.cz/arcgis/services/Zivotni_prostredi/Zaplavove_uzemi/MapServer/WMSServer"
-    },
-    {
-        "layers": [
-            "Chranena_loziskova_uzemi"
-        ],
-        "url": "http://geoportal2.uhul.cz/wms_oprl?"
-    },
-    {
-        "layers": [
-            "9"
-        ],
-        "url": "https://gis.nature.cz/arcgis/services/UzemneAnalytickePodklady/UdajeOUzemi/MapServer/WmsServer?"
-    },
-    {
-        "layers": [
-            "333444"
-        ],
-        "url": "http://ed.de"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_III_vojenske_mapovani/mapserver/WMSServer?"
-    },
-    {
-        "layers": [
-            "0"
-        ],
-        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_ortofotomapa_aktualni/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "3"
-        ],
-        "url": "aa.ee"
-    },
-    {
-        "layers": [
-            "ide_v_mdg_manzanas"
-        ],
-        "url": "http://geoweb.montevideo.gub.uy/geoserver/ide/ows"
-    },
-    {
-        "layers": [
-            "6",
-            "4",
-            "5",
-            "11",
-            "1",
-            "2",
             "8",
-            "14",
-            "7",
-            "15",
-            "12",
-            "13",
-            "9",
-            "10",
-            "3"
-        ],
-        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/kn_wms_norm/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "5",
-            "2",
-            "0",
-            "4",
-            "3"
-        ],
-        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/uo_wms_orto/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "5",
-            "2",
-            "0",
-            "4",
-            "3"
-        ],
-        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/uo_wms_norm/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "19",
-            "6",
-            "4",
-            "5",
-            "11",
-            "1",
             "20",
-            "2",
-            "8",
-            "18",
-            "16",
-            "14",
-            "17",
-            "7",
-            "15",
-            "12",
-            "13",
-            "9",
-            "10",
-            "3"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_vodstvo_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
-            "6",
-            "4",
-            "5",
-            "1",
-            "2",
-            "8",
-            "14",
-            "7",
-            "15",
-            "12",
-            "13",
-            "11",
-            "10",
-            "3"
-        ],
-        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/kn_wms_orto/MapServer/WmsServer"
-    },
-    {
-        "layers": [
-            "4",
-            "2",
-            "0",
-            "3",
-            "1"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_administrativne_hranice_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
-            "6",
-            "4",
-            "5",
-            "11",
-            "1",
-            "2",
-            "8",
-            "14",
-            "12",
-            "13",
-            "9",
-            "10",
-            "3"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/klady_wms/service.svc/get"
-    },
-    {
-        "layers": [
-            "2",
-            "0",
-            "1"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_dmr3_wms/service.svc/get"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/RETM_wms/service.svc/get"
-    },
-    {
-        "layers": [
-            "4",
-            "5",
-            "1",
-            "2",
-            "0",
-            "3"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/ZMSR_wms/service.svc/get"
-    },
-    {
-        "layers": [
-            "",
-            " DMR GEOLOGY 2",
-            " RETM25",
-            "  VOJENSKE_MAPOVANIE_I_1764_1787",
-            " VOJENSKE_MAPOVANIE_II_1810_1869VOJENSKE_MAPOVANIE_III_1875_1884",
-            "  DMR GEOLOGY 1",
-            " VOJENSKE_MAPOVANIE_IV_1931_reamb",
-            " DMR SVM 1:50000 INTEGER",
-            " ZBGIS10R",
-            " VOJENSKE_MAPOVANIE_IV_1897",
-            "VOJENSKE_MAPOVANIE_I_1764_1787",
-            "SMO5",
-            "TM5_1955_1961",
-            "VOJENSKE_MAPOVANIE_III_1920_1934_reamb",
-            " VOJENSKE_MAPOVANIE_II_1810_1869",
-            " SMO5",
-            " DMR GEOLOGY 1",
-            " TM25_1952_1957",
-            "VOJENSKE_MAPOVANIE_II_1810_1869",
-            "TM25_1952_1957",
-            " ZBGIS10R_BEZ_VRSTEVNIC",
-            " SM75",
-            " DMR 3",
-            " TM10_1957_1971",
-            "  Historicke katastralne mapy - Spis 1869_1870",
-            "VOJENSKE_MAPOVANIE_III_1875_1884",
-            " VOJENSKE_MAPOVANIE_I_1764_1787",
-            " DMR SVM 1:50000 REAL",
-            " VOJENSKE_MAPOVANIE_III_1920_1934_reamb",
-            " VOJENSKE_MAPOVANIE_III_1875_1884",
-            "VOJENSKE_MAPOVANIE_IV_1897",
-            " N\u00e1zov",
-            " TM5_1955_1961",
-            " RETM50",
-            "VOJENSKE_MAPOVANIE_IV_1931_reamb",
-            " Historicke katastralne mapy - Spis 1869_1870",
-            "TM10_1957_1971",
-            "SM75"
-        ],
-        "url": "http://nipi.sazp.sk/arcgis/services/ng/rastre/MapServer/WMSServer?"
-    },
-    {
-        "layers": [
-            "6",
-            "4",
-            "5",
-            "1",
-            "2",
-            "0",
-            "3"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_povrch_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
-            "",
-            "6",
-            "4",
-            "5",
-            "1",
-            "2",
-            "8",
-            "7",
-            "12",
-            "13",
-            "9",
-            "10",
-            "3"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_vegetacia_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
-            "6",
-            "4",
-            "1",
-            "8",
-            "7",
-            "0",
-            "3"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_vyskopis_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
             "22",
-            "1",
-            "38",
-            "101",
-            "167",
-            "84",
-            "15",
-            "96",
-            "71",
-            "142",
-            "42",
-            "103",
-            "105",
-            "68",
-            "130",
-            "19",
-            "74",
-            "20",
-            "118",
-            "80",
-            "108",
-            "88",
-            "26",
-            "11",
-            "37",
-            "146",
-            "165",
-            "111",
-            "161",
-            "89",
-            "141",
-            "120",
-            "125",
-            "36",
-            "59",
-            "119",
-            "123",
-            "24",
-            "40",
-            "58",
-            "156",
-            "110",
-            "2",
-            "39",
-            "66",
-            "94",
-            "145",
-            "168",
-            "12",
-            "154",
-            "44",
-            "69",
-            "72",
-            "99",
-            "104",
-            "14",
-            "117",
-            "95",
-            "134",
-            "13",
-            "81",
-            "149",
-            "54",
-            "8",
-            "18",
-            "25",
-            "150",
-            "61",
-            "147",
-            "90",
-            "92",
-            "128",
-            "56",
-            "163",
-            "106",
-            "152",
-            "140",
-            "98",
-            "49",
-            "51",
-            "166",
-            "65",
-            "41",
-            "30",
-            "34",
-            "91",
-            "73",
-            "62",
-            "79",
-            "7",
-            "129",
-            "31",
-            "75",
             "23",
-            "100",
-            "82",
-            "164",
-            "126",
-            "3",
-            "28",
-            "33",
-            "135",
-            "47",
-            "107",
-            "160",
-            "93",
-            "21",
-            "122",
-            "131",
-            "169",
-            "64",
-            "67",
-            "29",
-            "76",
-            "50",
-            "127",
-            "112",
-            "6",
-            "4",
-            "5",
-            "138",
-            "57",
-            "116",
             "32",
-            "35",
-            "143",
-            "55",
-            "10",
-            "148",
-            "153",
-            "86",
-            "48",
-            "139",
-            "9",
-            "70",
-            "151",
-            "113",
-            "155",
-            "77",
-            "85",
-            "132",
-            "78",
-            "17",
-            "46",
-            "144",
-            "27",
-            "53",
-            "43",
-            "109",
-            "102",
-            "158",
-            "114",
-            "159",
-            "97",
-            "115",
-            "63",
-            "60",
-            "133",
-            "137",
-            "124",
-            "136",
-            "16",
-            "83",
-            "45",
-            "121",
-            "157",
-            "162",
-            "52",
-            "87"
+            "8;",
+            "31"
         ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_wms_featureinfo/service.svc/get"
+        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/Udaje_o_uzemi/MapServer/WMSServer"
     },
     {
         "layers": [
             "0"
         ],
-        "url": "https://zbgisws.skgeodesy.sk/AMSR_wms/service.svc/get"
-    },
-    {
-        "layers": [
-            "2",
-            "0",
-            "3",
-            "1"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_referencny_geodeticky_bod_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
-            "0",
-            "1"
-        ],
-        "url": "https://zbgisws.skgeodesy.sk/zbgis_letecko_navigacne_informacie_wms_featureinfo/service.svc/get"
-    },
-    {
-        "layers": [
-            "ortofoto"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/lednicke_rovne3857.map"
-    },
-    {
-        "layers": [
-            "ortofoto"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/povazska_bystrica3857.map"
-    },
-    {
-        "layers": [
-            "ortofoto"
-        ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/zemiansky_kvasov3857.map"
-    },
-    {
-        "layers": [
-            "2E1E59CE"
-        ],
-        "url": "http://jdtmzk.technickamapa.cz/wms/Marushka/handlers/wms.ashx?username=wms_chropyne&password=chropyne141"
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_II_vojenske_mapovani/MapServer/WMSServer?"
     },
     {
         "layers": [
@@ -2049,9 +79,105 @@
     },
     {
         "layers": [
+            "0"
+        ],
+        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_03/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/INSPIRE/III_14_CHMU_meteo_stanice/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "osm"
+        ],
+        "url": "http://irs.gis-lab.info/?layers=osm&"
+    },
+    {
+        "layers": [
+            "R_zonace_CHKO",
+            "dp_planpece_201703",
+            "R_VHM",
+            "dp_planpece_navrh",
+            "R_zonace_NP_AOPK"
+        ],
+        "url": "http://mapy.npsumava.cz/cgi-bin/wms_interni"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "4",
+            "8"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_envisec/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/Natura2000/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "_576166_10_zm2_KOV.hrr",
+            "_576573_Z1_KOV.hrr",
+            "_576786_zm1_KOV.hrr",
+            "_576573_133060_KOV.hrr",
+            "_576166_10_zm2_hlv.hrr",
+            "_576573_Z1_HLV.hrr",
+            "_576786_zm1_HLV.hrr",
+            "_RK_576786_d.hrr",
+            "_rk_576786.hrr"
+        ],
+        "url": "http://up.kr-kralovehradecky.cz/upd/_mapy/wms.dll?"
+    },
+    {
+        "layers": [
+            "10",
+            "2",
+            "5",
+            "6",
+            "11",
+            "4"
+        ],
+        "url": "https://geoportal.npu.cz/arcgis/services/TematickeMapy/CP_UAP_PVO/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1"
+        ],
+        "url": "http://giswa1.mag.mepnet.cz/arcgis/services/MAP/Ortofotomapa_archiv/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
             "Boretice"
         ],
         "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/boretice.map"
+    },
+    {
+        "layers": [
+            "11",
+            "10",
+            "13",
+            "12",
+            "1",
+            "3",
+            "2",
+            "5",
+            "4",
+            "7",
+            "6",
+            "9",
+            "8"
+        ],
+        "url": "http://geoportal.jsdi.cz/ArcGIS/services/geoportal_rsd_wms1/MapServer/WMSServer?"
     },
     {
         "layers": [
@@ -2061,21 +187,850 @@
     },
     {
         "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/INSPIRE/III_14_CHMU_meteo_stanice/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_klima/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "10",
+            "13",
+            "12",
+            "15",
+            "14",
+            "17",
+            "16",
+            "18",
+            "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4",
+            "7",
+            "6",
+            "9",
+            "8"
+        ],
+        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/ZivotniProstredi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_zdroje_prasnosti/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "GP_SPH_ORP",
+            "GP_SPH_ZSJ",
+            "GT_SPH_OPU",
+            "GT_SPH_ORP",
+            "GP_SPH_OPU",
+            "GT_SPH_ZSJ"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_SPH_PUB/WMService.aspx"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4",
+            "6"
+        ],
+        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/Hipostezky/MapServer/WMSServer"
+    },
+    {
+        "layers": [
             "geonode:_04"
         ],
         "url": "http://vavgis.cz/geoserver/wms?"
     },
     {
         "layers": [
-            "ortofoto"
+            "DejTip"
         ],
-        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/rozdrojovice.map"
+        "url": "http://dejtip.eu/WMS_DEJTIP_E/Request.aspx"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/IG_rajony/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "3",
+            "2",
+            "10",
+            "5",
+            "18",
+            "13",
+            "7",
+            "6",
+            "14",
+            "11",
+            "17",
+            "15",
+            "22",
+            "23",
+            "21",
+            "19"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_corine_zmeny/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "LPIS4_VINICE_VT_4",
+            "CHKO_MOKR_4",
+            "PASTVINA_LOUKA_MV_4",
+            "LPIS_KP4",
+            "EROZE_09_7",
+            "LPIS_FB_EKO",
+            "LPIS_FB_VYMERA_TISK",
+            "ODTOKLINIE_V2",
+            "LPIS_KP4_KOD",
+            "MELIORACE_WMS",
+            "PASTVINA_4",
+            "LPIS_KP4_PASMO",
+            "LPIS_NIT_ZRO_WMS",
+            "LPIS_FB_KUL",
+            "EROZE_09_7_HR",
+            "LPIS_FB_ZPUS",
+            "LOUKA_MV_4",
+            "LPIS_FB4_KOD",
+            "VRSTEVNICE_5M_V2_POPIS",
+            "BPEJ_WMS",
+            "VRSTEVNICE_2M_V2_POPIS",
+            "EROZE_09_8",
+            "VYNOSOVE_HLADINY_DPB_WMS",
+            "OPVZ",
+            "ODTOKLINIE_FB_V8",
+            "VYNOSOVE_HLADINY_BPEJ_WMS",
+            "BPEJ_OHRER_WMS",
+            "PB_4",
+            "LPIS_FB_ULOZ_HNOJE_K_WMS"
+        ],
+        "url": "http://eagri.cz/public/app/wms/plpis.fcgi"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "https://gis.nature.cz/arcgis/services/PamatneStromy/PamStrom/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG_rajony/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "11",
+            "20",
+            "14",
+            "17",
+            "1",
+            "2",
+            "5",
+            "6",
+            "9",
+            "8",
+            "10",
+            "18",
+            "24",
+            "3",
+            "23",
+            "21",
+            "15"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_hluk/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/Oznamena_dulni_dila/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_uhli/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1"
+        ],
+        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/ZUR/RozvojoveOblasti/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "3",
+            "2"
+        ],
+        "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_natura"
+    },
+    {
+        "layers": [
+            "pssk",
+            "centr2",
+            "centr3",
+            "centr1",
+            "psjs",
+            "psst"
+        ],
+        "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_pam_stromy"
+    },
+    {
+        "layers": [
+            "9"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_hust_zalid/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "10",
+            "15",
+            "14",
+            "17",
+            "16",
+            "0",
+            "9",
+            "24",
+            "23",
+            "22"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_arccr/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "ide_v_mdg_manzanas"
+        ],
+        "url": "http://geoweb.montevideo.gub.uy/geoserver/ide/ows"
+    },
+    {
+        "layers": [
+            "LC.LandCover.CORINE.2000",
+            "LC.LandCover.CORINE.zmena.2000.2006",
+            "LC.LandCover.CORINE.zmena.1990.2000",
+            "LC.LandCover.CORINE.1990"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_corine/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "GR_TEREN"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_TEREN/WMService.aspx?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/geomagnetic_field/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_typologie_krajiny/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_53/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "3",
+            "2",
+            "5",
+            "4",
+            "7",
+            "6",
+            "8"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_chranena_uzemi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "e",
+            "skeletovitost",
+            "pt",
+            "h",
+            "k",
+            "kr",
+            "sl",
+            "tro",
+            " sl"
+        ],
+        "url": "http://geoportal.vumop.cz/wms_vumop/zchbpej.asp"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/PamatneStromy/PamStrom/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "R_UP_Zdikov",
+            "R_UP_Hartmanice",
+            "R_UP_BorovaLada",
+            "R_UP_HorskaKvilda",
+            "R_UP_Zbytiny",
+            "R_UP_Zablati",
+            "R_UP_Kvilda",
+            "R_UP_Hamry"
+        ],
+        "url": "http://mapy.npsumava.cz/cgi-bin/wuzemniplany"
+    },
+    {
+        "layers": [
+            "25",
+            "13",
+            "22",
+            "16",
+            "19",
+            "31",
+            "28",
+            "34",
+            "4",
+            "7",
+            "10"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/VAV_biomasa/vav_biomasa_ceny/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "15",
+            "14",
+            "16"
+        ],
+        "url": "https://gis.nature.cz/arcgis/services/UzemneAnalytickePodklady/UdajeOUzemi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_ppv/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_skoly/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "24",
+            "29"
+        ],
+        "url": "http://mpp.praha.eu/arcgis/services/MAP/Ortofotomapa_archiv/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "Stanice_site_CZEPOS",
+            "Nazvy_ulic",
+            "Polohove_bodove_pole",
+            "Tihove_bodove_pole",
+            "Vyskove_bodove_pole"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_BODPOLE/WMService.aspx"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG2mil/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_sekm/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "3",
+            "2",
+            "5",
+            "4",
+            "7",
+            "6"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_geomorfologie/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "4"
+        ],
+        "url": "https://gis.nature.cz/arcgis/services/UzemniOchrana/ChranUzemi/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "Vyskopis-vrstevnice",
+            "GT_CA030",
+            "GB_CA030"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_ZABAGED_PUB/WMService.aspx?"
+    },
+    {
+        "layers": [
+            "1",
+            "3",
+            "2",
+            "5",
+            "4",
+            "7",
+            "6",
+            "9",
+            "8",
+            "36",
+            "43",
+            "49",
+            "33",
+            "46",
+            "53",
+            "56",
+            "59",
+            "39",
+            "19",
+            "29",
+            "28",
+            "18",
+            "51",
+            "11",
+            "47",
+            "31",
+            "57",
+            "22",
+            "12",
+            "26",
+            "44",
+            "34",
+            "58",
+            "45",
+            "38",
+            "21",
+            "14",
+            "13",
+            "37",
+            "16",
+            "52",
+            "24",
+            "23",
+            "25",
+            "15",
+            "32",
+            "55",
+            "41",
+            "54",
+            "17",
+            "48",
+            "35",
+            "27",
+            "42"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_zdroje_imisi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/AplikovanaOchrana/DopravaObojzivelnici/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_obyv_byt/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "DG.DruhyKatastralniMapy.OblastAnalogova",
+            "DG.DruhyKatastralniMapy.OblastKm-d",
+            "DG.KatastralniUzemi",
+            "DG.DruhyKatastralniMapy.OblastDkmKmd"
+        ],
+        "url": "http://services.cuzk.cz/wms/local-dg-wms.asp?"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_urady/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_typy_pud/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG1mil/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "AU.2ndOrder.Kraj.AdministrativeUnitLabel",
+            "AU.2ndOrder.Kraj.AdministrativeBoundary",
+            "AU.3rdOrder.Okres"
+        ],
+        "url": "http://services.cuzk.cz/wms/local-ux-wms.asp?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_12/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "2",
+            "4",
+            "7",
+            "6",
+            "9",
+            "8"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_fragmentace_krajiny/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "2",
+            "Ortofoto 2012"
+        ],
+        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/Podklad/PolohopisRastr/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_06/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "wdp_planpece",
+            "orto2007",
+            "wtopo",
+            "orto2016_1m",
+            "orto2015_1m",
+            "orto2010_1m",
+            "wtypologie",
+            "orto",
+            "orto2014_1m"
+        ],
+        "url": "http://mapy.npsumava.cz/cgi-bin/wlesis"
+    },
+    {
+        "layers": [
+            "13",
+            "24"
+        ],
+        "url": "http://mpp.iprpraha.cz/arcgis/services/UAP/UAP_2014/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "450",
+            "451",
+            "393",
+            "271",
+            "275",
+            "277",
+            "426",
+            "429",
+            "428",
+            "283",
+            "425",
+            "427",
+            "286",
+            "449",
+            "448",
+            "266",
+            "265",
+            "264",
+            "414",
+            "438",
+            "439",
+            "436",
+            "437",
+            "434",
+            "435"
+        ],
+        "url": "http://ags.kr-plzensky.cz/arcgis/services/UAP/UAP_ORP_vse/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "13",
+            "12",
+            "16",
+            "19",
+            "3",
+            "2",
+            "7",
+            "8"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_t_popisky/mapserver/WMSServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/AplikovanaOchrana/MigraceSavci/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "10",
+            "13",
+            "12",
+            "4270",
+            "35"
+        ],
+        "url": "http://195.113.178.19/html/WMS_orto.dll?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_emas/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_vetrne_elektrarny/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2"
+        ],
+        "url": "https://gis.nature.cz/arcgis/services/Biotopy/PrirBiotopHabitat/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "zpfveek",
+            "voek",
+            "zpfvee",
+            "vee",
+            "veek"
+        ],
+        "url": "http://geoportal.vumop.cz/wms_vumop/eroze.asp"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://gis.kr-jihomoravsky.cz/arcgis/services/Jmk/orto_09/MapServer/WMSServer?"
     },
     {
         "layers": [
             "2"
         ],
         "url": "abc.cz"
+    },
+    {
+        "layers": [
+            "ortofoto"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/dobronin.map"
+    },
+    {
+        "layers": [
+            "RAS_MAPA_POROSTNI",
+            "RAS_MAPA_OBRYSOVA"
+        ],
+        "url": "http://geoportal.lesycr.cz/GWM_WMS_LHP_N/service.svc/get?"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/GM500K/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "_576182_112585_HLV.hrr",
+            "_576182_112585_KOV.hrr"
+        ],
+        "url": "http://up.kr-kralovehradecky.cz/upd/wms/?SERVICE=WMS&LANG=CS-CZ&"
+    },
+    {
+        "layers": [
+            "RAS_MAPA_POROSTNI",
+            "RAS_MAPA_OBRYSOVA"
+        ],
+        "url": "http://geoportal.lesycr.cz:80/WMS_LHP/service.svc/get?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/radiometric_field/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "10",
+            "13",
+            "22",
+            "25",
+            "19",
+            "37",
+            "31",
+            "16",
+            "28",
+            "43",
+            "40",
+            "34",
+            "4",
+            "7"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/VAV_biomasa/vav_biomasa_vynosy/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "2",
+            "5",
+            "4",
+            "6"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/INSPIRE/III_7_CHMU_voda/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/radon500/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/INSPIRE/I_9_MO_valecne_hroby/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "\t28",
+            "25",
+            "12",
+            "15",
+            "21",
+            "33",
+            "18",
+            "6",
+            "30",
+            "28",
+            "1",
+            "3",
+            "4",
+            "32",
+            "9"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Suroviny/Surovinovy_informacni_system/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/GM2_5mil/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "Honitby"
+        ],
+        "url": "http://geoportal.uhul.cz/wms_mysl/service.svc/get"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_typy_pud/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/Pudni_typy/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_adresy_ulice/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "15",
+            "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4",
+            "6"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Geochemicka_prozkoumanost/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "3",
+            "2",
+            "5",
+            "6"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Geofyzikalni_prozkoumanost/MapServer/WMSServer"
     },
     {
         "layers": [
@@ -2091,9 +1046,48 @@
     },
     {
         "layers": [
+            "11",
+            "8",
+            "9",
+            "5",
+            "6"
+        ],
+        "url": "http://mpp.praha.eu/arcgis/services/PAM/Pamatky/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
             "ortofoto"
         ],
         "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/zajeci_hrbitov.map"
+    },
+    {
+        "layers": [
+            "",
+            "DEF_PARCELY",
+            "vb_plochy_cast_vedeni",
+            "vb_linie_i",
+            "podrobne_body_barevne",
+            "vb_plochy_cast_ostatni",
+            "vb_plochy_parcela_vedeni",
+            "vb_plochy_parcela_listina",
+            "vb_plochy_parcela_chuze",
+            "vb_linie",
+            "vb_plochy_cast_listina",
+            "hranice_parcel_barevne",
+            "KN_I",
+            "vb_plochy_cast_uzivani",
+            "vb_plochy_parcela_ostatni",
+            "vb_plochy_cast_chuze",
+            "vb_plochy_parcela_uzivani",
+            "DKM"
+        ],
+        "url": "http://services.cuzk.cz/wms/wms.asp"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/INSPIRE/II_2_VUKOZ_historicke_zahrady/MapServer/WmsServer?"
     },
     {
         "layers": [
@@ -2103,9 +1097,148 @@
     },
     {
         "layers": [
+            "PM_Obec_Nicov",
+            "PM_Obec_Zablati",
+            "PM_CHKO_Sumava",
+            "obrysovky",
+            "obrysovka",
+            "PM_NP_Sumava",
+            "PM_Mesto_Volary",
+            "PM_LHO_Klatovy",
+            "PM_LHO_Susice",
+            "PM_LHO_Vimperk",
+            "POMOCNA_NP_Sumava",
+            "PM_Obec_Strazny",
+            "PM_Mesto_Vimperk",
+            "PM_LZBoubin_Vimperk",
+            "PM_Obec_Zbytiny",
+            "PM_Obec_Stachy",
+            "PM_Obec_SvataMari",
+            "PM_LHO_Prachatice",
+            "PM_Coolidge"
+        ],
+        "url": "http://mapy.npsumava.cz/cgi-bin/wlhp"
+    },
+    {
+        "layers": [
             "0"
         ],
         "url": "http://gis.kr-jihomoravsky.cz/arcgis/rest/services/Jmk/orto_53/MapServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Geologie/geocr50/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_III_vojenske_mapovani/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "KN_VT_DKM",
+            "KN_GL_KMD_PAR_VK",
+            "SP6_KRAJ_JMK2016",
+            "SP1_KU_JMK2016",
+            "KN_GL_KMD_PAR",
+            "KN_PREHLED_DKM",
+            "KN_GP_UKM",
+            "KN_VL_DKM_VK",
+            "KN_GL_UKM",
+            "KN_VP_DKM",
+            "KN_PREHLED_KMD",
+            "KN_GT_UKM",
+            "KN_VB_DEBO_PAR",
+            "KN_GT_KMD_PAR"
+        ],
+        "url": "http://ms.kr-jihomoravsky.cz/WMS_JMK_UKM/service.svc/get?"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "4"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/ChranUzemi/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_automapy/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "9"
+        ],
+        "url": "https://gis.nature.cz/arcgis/services/UzemneAnalytickePodklady/UdajeOUzemi/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "VSK_VRST_HLAVNI",
+            "",
+            "VSK_VRST_DOPLNKOVA",
+            "VSK_VRST_ZESILENA",
+            "SM_POPVRSTV"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_SM5V_PUB/WMService.aspx"
+    },
+    {
+        "layers": [
+            "1",
+            "3",
+            "2",
+            "5",
+            "7",
+            "6"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Prozkoumanost/Vrtna_prozkoumanost/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "smlouvy_1"
+        ],
+        "url": "http://www.geosense.cz/cgi-bin/gp_odersky-statek_cz_wms_ms6"
+    },
+    {
+        "layers": [
+            "58"
+        ],
+        "url": "http://geoportal.kr-vysocina.cz/arcgis/services/DatovySklad/SilnicniNehody/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "prehledka_kat_uz",
+            "RST_PK",
+            "KN",
+            "prehledky",
+            "RST_PK_I",
+            "bp",
+            "KN_I",
+            "vb"
+        ],
+        "url": "http://services.cuzk.cz/wms/wms.asp?"
+    },
+    {
+        "layers": [
+            "LC.LandCover.CORINE.CLC12_CZ",
+            "LC.LandCover.CORINE.CLC06R_CZ",
+            "LC.LandCover.CORINE.CHA12_CZ"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_corine_2012/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_zeleznice_stanice/MapServer/WMSServer"
     },
     {
         "layers": [
@@ -2116,9 +1249,29 @@
     {
         "layers": [
             "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4",
+            "6"
+        ],
+        "url": "http://geoportal.gov.cz/arcgis/services/CENIA/cenia_ippc/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "1",
             "3"
         ],
         "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_biotopy_wms"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "https://gis.nature.cz/arcgis/services/UzemniOchrana/Natura2000/MapServer/WmsServer?"
     },
     {
         "layers": [
@@ -2128,9 +1281,101 @@
     },
     {
         "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4",
+            "7",
+            "6",
+            "8"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/Biotopy/FormSkupinaPrirBiotop/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "Biokoridor_NR_NF",
+            "Mapa_dopravni",
+            "Biokoridor_L_F",
+            "PALZ",
+            "PHO",
+            "Biokoridor_L_NF",
+            "Mapa_typologicka",
+            "VKP",
+            "Prirodni_lesni_oblast",
+            "Mapa_uzemnich_systemu_ekologicke_stability",
+            "Mapa_cilovych_hospodarskych_souboru",
+            "Biocentrum_USES",
+            "Mapa_lesnich_vegetacnich_stupnu",
+            "Biokoridor_R_NF",
+            "Les_OPRL",
+            "Biokoridor_NR_F",
+            "Mapa_funkcniho_potencialu",
+            "Biokoridor_R_F",
+            "Mapa_dlouhodobych_opatreni_ochrany_lesa",
+            "Mapa_prehledova",
+            "Mapa_deklarovanych_funkci"
+        ],
+        "url": "http://geoportal.uhul.cz/wms_oprl/service.svc/get"
+    },
+    {
+        "layers": [
+            "isvs_rybvod",
+            "isvs_koupobl",
+            "isvs_zapluz_5",
+            "isvs_zapluz_az",
+            "isvs_upovr",
+            "isvs_zapluz_100",
+            "isvs_stavupovj_eko",
+            "isvs_zapluz_20",
+            "isvs_citobl",
+            "isvs_opvz",
+            "isvs_zranobl",
+            "isvs_opvz_nadr",
+            "isvs_chopav",
+            "isvs_upzv_sv",
+            "isvs_stavupovr_eko",
+            "isvs_upovj",
+            "isvs_upzv_za",
+            "isvs_stavupovr_che",
+            "isvs_stavupzv_sv_che",
+            "isvs_stavupzv_hl_che",
+            "isvs_stavupzv_hl_kva",
+            "isvs_upzv_hl",
+            " isvs_opvz_nadr",
+            "isvs_stavupzv_za_kva",
+            "isvs_stavupzv_sv_kva",
+            "isvs_stavupzv_za_che",
+            "isvs_stavupovj_che"
+        ],
+        "url": "http://heis.vuv.cz/data/webmap/wms.dll"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "5",
+            "4"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/MezinarodOchrana/MapServer/WmsServer"
+    },
+    {
+        "layers": [
             "relief"
         ],
         "url": "http://mapy.kr-kralovehradecky.cz/wms/isapi.dll"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/AOPKCR/Pracoviste/MapServer/WmsServer"
     },
     {
         "layers": [
@@ -2140,9 +1385,38 @@
     },
     {
         "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/HG200K/MapServer/WMSServer"
+    },
+    {
+        "layers": [
             "v11"
         ],
         "url": "http://up.webmap.cz/stredocesky/zasady-uzemniho-rozvoje/mapy?"
+    },
+    {
+        "layers": [
+            "LHP_2017_Horice",
+            "LHP_2017_CK",
+            "LHO_2018_Vimperk",
+            "LHP_2017_Cerna"
+        ],
+        "url": "http://mapy.npsumava.cz/cgi-bin/wx159"
+    },
+    {
+        "layers": [
+            "2",
+            "4",
+            "6"
+        ],
+        "url": "http://mapy.mag-ul.cz/arcgis/services/Zivotni_prostredi/Zaplavove_uzemi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_fytogeo/MapServer/WMSServer"
     },
     {
         "layers": [
@@ -2155,5 +1429,911 @@
             "1"
         ],
         "url": "aa.bb"
-    }
+    },
+    {
+        "layers": [
+            "0",
+            "3",
+            "2",
+            "4",
+            "1"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_vybavenost_obci/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_III_vojenske_mapovani/mapserver/WMSServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "2"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Inspire/kvarter/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/Biotopy/PrirBiotopHabitat/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "2",
+            "4"
+        ],
+        "url": "http://mapmaker.nature.cz/wmsconnector/com.esri.wms.Esrimap/aopk_chu"
+    },
+    {
+        "layers": [
+            "ortofoto"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/rozdrojovice5514.map"
+    },
+    {
+        "layers": [
+            "ortofoto"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/skrchov.map"
+    },
+    {
+        "layers": [
+            "GR_ORTFOTORGB"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_ORTOFOTO_PUB/WMService.aspx?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/banske_mapy_public/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "GR_ZM10"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_ZM10_PUB/WMService.aspx"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_hrbitovy_pohrebiste/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "plynovod",
+            "up_vykres",
+            "useslokal",
+            "vodovod",
+            "kanalizace",
+            "elektro",
+            "telekomunikace"
+        ],
+        "url": "http://wms.dataprocon.cz/dataprocon/rajec-jestrebi"
+    },
+    {
+        "layers": [
+            "GT_KMD",
+            "GL_UKM",
+            "VP_DKM",
+            "VL_DKM",
+            "GB_DEF_BODY",
+            "VT_DKM",
+            "VP_KMD",
+            "GL_KMD",
+            "GP_UKM",
+            "GT_UKM",
+            "GP_KU_JM"
+        ],
+        "url": "http://up.kr-jihomoravsky.cz/WMS_JMK_UKM_F/WMService.aspx?"
+    },
+    {
+        "layers": [
+            "up_vykres"
+        ],
+        "url": "http://wms.dataprocon.cz/dataprocon/prace?"
+    },
+    {
+        "layers": [
+            "upd_rastr"
+        ],
+        "url": "http://wms.dataprocon.cz/geodata/ma_prysk"
+    },
+    {
+        "layers": [
+            "upd_rastr"
+        ],
+        "url": "http://wms.dataprocon.cz/geodata/ma_dobromerice"
+    },
+    {
+        "layers": [
+            "up_vykres"
+        ],
+        "url": "http://wms.dataprocon.cz/dataprocon/pritluky"
+    },
+    {
+        "layers": [
+            "ortofoto"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/chotetov.map"
+    },
+    {
+        "layers": [
+            "ndvi kompozit",
+            "ndvi",
+            "neprav\u00e9 barvy"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy_indexy.map"
+    },
+    {
+        "layers": [
+            "ortofoto"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy.map"
+    },
+    {
+        "layers": [
+            "ortofoto"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/ricany_silnice.map"
+    },
+    {
+        "layers": [
+            "ICAO"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/icao.map"
+    },
+    {
+        "layers": [
+            "ortofoto_m"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy_m.map"
+    },
+    {
+        "layers": [
+            "ndvi kompozit mal\u00fd",
+            "neprav\u00e9 barvy mal\u00fd",
+            "ndvi mal\u00fd"
+        ],
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/sloup_lesy_indexy_m.map"
+    },
+    {
+        "layers": [
+            "RAS_MAPA_POROSTNI"
+        ],
+        "url": "http://geoportal.lesycr.cz:80/WMS_LHP/service.svc/get?&username=dataprocon&password=dataprocon1"
+    },
+    {
+        "layers": [
+            "upd_rastr"
+        ],
+        "url": "http://wms.dataprocon.cz/geodata/ma_ruzova"
+    },
+    {
+        "layers": [
+            "elektro_vn_podz",
+            "elektro_vn_nadz",
+            "vodovod",
+            "elektro_nn_nadz",
+            "telekomunikace",
+            "elektro_nn_podz"
+        ],
+        "url": "http://wms.dataprocon.cz/geodata/ma_kytlice"
+    },
+    {
+        "layers": [
+            "1"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Suroviny/dobyvaci_prostory/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "elektro_nn",
+            "plynovod",
+            "up_vykres",
+            "elektro_vn",
+            "vodovod",
+            "kanalizace",
+            "telekomunikace"
+        ],
+        "url": "http://wms.dataprocon.cz/dataprocon/starovicky?"
+    },
+    {
+        "layers": [
+            "wmsvt",
+            "wms_q100",
+            "wms_q5",
+            "wms_q20",
+            "wmsnadr",
+            "wmszrano",
+            "wms_chopav",
+            "wms_akz",
+            "wmskoupobl",
+            "wms_upzvsv",
+            "wms_upzvzk",
+            "wms_upovj",
+            "wms_opvz"
+        ],
+        "url": "http://heis.vuv.cz/data/webmap/isapi.dll"
+    },
+    {
+        "layers": [
+            "5",
+            "3",
+            "4"
+        ],
+        "url": "http://ags.kr-plzensky.cz/arcgis/services/UPD/Horska_Kvilda/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "14",
+            "5",
+            "7",
+            "9",
+            "18",
+            "16",
+            "11",
+            "1",
+            "15"
+        ],
+        "url": "http://gis.kraj-jihocesky.gov.cz/arcgis/services/DMVS_upd/UP_Kvilda/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "5"
+        ],
+        "url": "http://gis.kraj-jihocesky.gov.cz/arcgis/services/DMVS_upd/UP_Borova_Lada/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "upd_rastr"
+        ],
+        "url": "http://wms.dataprocon.cz/geodata/ma_postoloprty"
+    },
+    {
+        "layers": [
+            "10",
+            "4"
+        ],
+        "url": "http://ags.kr-plzensky.cz/arcgis/services/UPD/Modrava/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "4",
+            "3",
+            "1"
+        ],
+        "url": "http://gis.nature.cz/arcgis/services/UzemniOchrana/ChranUzemi/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "1",
+            "0"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/poddolovana_uzemi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "24",
+            "5"
+        ],
+        "url": "http://mapy.geology.cz/arcgis/services/Dulni_Dila/Udaje_o_uzemi/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "bpej"
+        ],
+        "url": "http:///cgi-bin/gp_krnsko_cz_wms"
+    },
+    {
+        "layers": [
+            "2",
+            "1"
+        ],
+        "url": " \thttp://gis.nature.cz/arcgis/services/UzemniOchrana/Natura2000/MapServer/WmsServer"
+    },
+    {
+        "layers": [
+            "aaa"
+        ],
+        "url": "www.seznam.cz"
+    },
+    {
+        "layers": [
+            "linie",
+            "kladpar",
+            "zappar",
+            "popis_text",
+            "parc_cisla"
+        ],
+        "url": "http://93.184.70.94:21880/cgi-bin/mapserv.fcgi"
+    },
+    {
+        "layers": [
+            "18",
+            "20",
+            "21",
+            "19"
+        ],
+        "url": "http://mpp.praha.eu/arcgis/services/ZP_OVZ/imise_model_refbody/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "3E8692C4",
+            "030C2DEE",
+            "9A8BA5DB",
+            "CEF70EE0",
+            "D00210C4",
+            "099FC851",
+            "C5DB5FE6",
+            "33BEBB5B",
+            "80F1CD55",
+            "A89FB388",
+            "39E98A0E",
+            "55A5C289",
+            "805B7DDE",
+            "F8D5AF76",
+            "51C17F74",
+            "1F68BC33",
+            "5928AD06",
+            "D5D1EC36",
+            "4CCEF752",
+            "6272839E",
+            "2BBEB8DD",
+            "0F28ACA9",
+            "B2EBCD8D",
+            "C02AC12B",
+            "A3A4AE60",
+            "BF4A01BF",
+            "8EE7BE5C",
+            "7BFB795E",
+            "12F7F239",
+            "18A94EC5",
+            "77A08EC2",
+            "D1644376",
+            "AE2D3D17",
+            "A01CDDE3",
+            "4FD76059",
+            "378C06C7",
+            "36C13514",
+            "75E4B650",
+            "0DD6C509",
+            "E9BDB5E0",
+            "A0415487",
+            "9460B774",
+            "3A8D486D",
+            "1778F549",
+            "E705A1AE",
+            "7F9EB1B9",
+            "0018E925",
+            "3DCEBA57"
+        ],
+        "url": "http://marushkapub.liberec.cz/handlers/wms.ashx"
+    },
+    {
+        "layers": [
+            "4"
+        ],
+        "url": " \thttp://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_chranena_uzemi/MapServer/WMSServer"
+    },
+    {
+        "layers": [
+            "11"
+        ],
+        "url": "http://mpp.praha.eu/arcgis/services/PUP/Uzemni_plan_platny/MapServer/WmsServer?"
+    },
+    {
+        "layers": [
+            "tro"
+        ],
+        "url": "http://geoportal.vumop.cz/wms_vumop/zchbpej.asp?"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://mpp.praha.eu/arcgis/services/MAP/mimovegetacni_snimkovani_cache/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "12",
+            "27",
+            "20",
+            "26",
+            "30"
+        ],
+        "url": "http://mpp.praha.eu/arcgis/services/MAP/Ortofotomapa_archiv/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "Polohove_bodove_pole",
+            "Vyskove_bodove_pole"
+        ],
+        "url": "http://geoportal.cuzk.cz/WMS_BODPOLE/service.svc/get?"
+    },
+    {
+        "layers": [
+            "mapint:retro"
+        ],
+        "url": "http://geo.mapshakers.com:8080/geowebcache/service/wms?"
+    },
+    {
+        "layers": [
+            "Chranena_loziskova_uzemi"
+        ],
+        "url": "http://geoportal2.uhul.cz/wms_oprl?"
+    },
+    {
+        "layers": [
+            "3"
+        ],
+        "url": "aa.ee"
+    },
+    {
+        "layers": [
+            "333444"
+        ],
+        "url": "http://ed.de"
+    },
+    {
+        "layers": [
+            "0"
+        ],
+        "url": "http://geoportal.gov.cz/ArcGIS/services/CENIA/cenia_rt_ortofotomapa_aktualni/MapServer/WMSServer?"
+    },
+    {
+        "layers": [
+            "up_vykres51",
+            "up_vykres52"
+        ],
+        "url": "http://wms.dataprocon.cz/dataprocon/bystrice-nad-pernstejnem?"
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_vyskopis_wms_featureinfo/service.svc/get",
+        "layers": [
+            "1",
+            "0",
+            "3",
+            "4",
+            "7",
+            "6",
+            "8"
+        ]
+    },
+    {
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/zemiansky_kvasov3857.map",
+        "layers": [
+            "ortofoto"
+        ]
+    },
+    {
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/povazska_bystrica3857.map",
+        "layers": [
+            "ortofoto"
+        ]
+    },
+    {
+        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/kn_wms_orto/MapServer/WmsServer",
+        "layers": [
+            "14",
+            "6",
+            "8",
+            "4",
+            "5",
+            "2",
+            "10",
+            "12",
+            "13",
+            "15",
+            "3",
+            "1",
+            "11",
+            "7"
+        ]
+    },
+    {
+        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/kn_wms_norm/MapServer/WmsServer",
+        "layers": [
+            "14",
+            "6",
+            "8",
+            "4",
+            "5",
+            "2",
+            "10",
+            "12",
+            "13",
+            "15",
+            "3",
+            "9",
+            "1",
+            "11",
+            "7"
+        ]
+    },
+    {
+        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/uo_wms_norm/MapServer/WmsServer",
+        "layers": [
+            "0",
+            "3",
+            "2",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "url": "https://kataster.skgeodesy.sk/eskn/services/NR/uo_wms_orto/MapServer/WmsServer",
+        "layers": [
+            "0",
+            "3",
+            "2",
+            "4",
+            "5"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_administrativne_hranice_wms_featureinfo/service.svc/get",
+        "layers": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_vodstvo_wms_featureinfo/service.svc/get",
+        "layers": [
+            "14",
+            "6",
+            "8",
+            "4",
+            "5",
+            "2",
+            "10",
+            "12",
+            "17",
+            "20",
+            "13",
+            "15",
+            "18",
+            "3",
+            "9",
+            "19",
+            "1",
+            "11",
+            "7",
+            "16"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/AMSR_wms/service.svc/get",
+        "layers": [
+            "0"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_povrch_wms_featureinfo/service.svc/get",
+        "layers": [
+            "6",
+            "4",
+            "5",
+            "0",
+            "2",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/RETM_wms/service.svc/get",
+        "layers": [
+            "0",
+            "1"
+        ]
+    },
+    {
+        "url": "http://nipi.sazp.sk/arcgis/services/ng/rastre/MapServer/WMSServer?",
+        "layers": [
+            "",
+            " DMR SVM 1:50000 INTEGER",
+            " VOJENSKE_MAPOVANIE_III_1920_1934_reamb",
+            " VOJENSKE_MAPOVANIE_IV_1931_reamb",
+            "VOJENSKE_MAPOVANIE_III_1875_1884",
+            " TM25_1952_1957",
+            "TM25_1952_1957",
+            "SM75",
+            " N\u00e1zov",
+            " RETM25",
+            " DMR 3",
+            "  VOJENSKE_MAPOVANIE_I_1764_1787",
+            "VOJENSKE_MAPOVANIE_IV_1897",
+            " DMR SVM 1:50000 REAL",
+            "TM5_1955_1961",
+            " VOJENSKE_MAPOVANIE_II_1810_1869VOJENSKE_MAPOVANIE_III_1875_1884",
+            "VOJENSKE_MAPOVANIE_I_1764_1787",
+            "VOJENSKE_MAPOVANIE_II_1810_1869",
+            " TM5_1955_1961",
+            " TM10_1957_1971",
+            " VOJENSKE_MAPOVANIE_IV_1897",
+            " DMR GEOLOGY 1",
+            " ZBGIS10R_BEZ_VRSTEVNIC",
+            " DMR GEOLOGY 2",
+            "TM10_1957_1971",
+            " VOJENSKE_MAPOVANIE_I_1764_1787",
+            "VOJENSKE_MAPOVANIE_III_1920_1934_reamb",
+            " RETM50",
+            " ZBGIS10R",
+            " VOJENSKE_MAPOVANIE_III_1875_1884",
+            " SM75",
+            " VOJENSKE_MAPOVANIE_II_1810_1869",
+            " Historicke katastralne mapy - Spis 1869_1870",
+            " SMO5",
+            "VOJENSKE_MAPOVANIE_IV_1931_reamb",
+            "  DMR GEOLOGY 1",
+            "SMO5",
+            "  Historicke katastralne mapy - Spis 1869_1870"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_wms_featureinfo/service.svc/get",
+        "layers": [
+            "117",
+            "33",
+            "129",
+            "109",
+            "149",
+            "7",
+            "58",
+            "124",
+            "150",
+            "152",
+            "29",
+            "151",
+            "85",
+            "65",
+            "106",
+            "19",
+            "77",
+            "42",
+            "113",
+            "26",
+            "44",
+            "3",
+            "74",
+            "87",
+            "24",
+            "118",
+            "140",
+            "167",
+            "15",
+            "22",
+            "78",
+            "95",
+            "68",
+            "110",
+            "90",
+            "138",
+            "4",
+            "96",
+            "123",
+            "38",
+            "51",
+            "168",
+            "27",
+            "35",
+            "134",
+            "136",
+            "98",
+            "101",
+            "156",
+            "80",
+            "40",
+            "162",
+            "141",
+            "43",
+            "82",
+            "145",
+            "83",
+            "54",
+            "56",
+            "146",
+            "66",
+            "37",
+            "139",
+            "73",
+            "20",
+            "10",
+            "39",
+            "62",
+            "94",
+            "99",
+            "100",
+            "148",
+            "164",
+            "86",
+            "163",
+            "107",
+            "91",
+            "64",
+            "49",
+            "143",
+            "132",
+            "135",
+            "55",
+            "59",
+            "155",
+            "41",
+            "111",
+            "84",
+            "137",
+            "142",
+            "153",
+            "8",
+            "102",
+            "133",
+            "1",
+            "161",
+            "79",
+            "52",
+            "89",
+            "166",
+            "9",
+            "120",
+            "28",
+            "81",
+            "45",
+            "16",
+            "6",
+            "31",
+            "12",
+            "17",
+            "32",
+            "125",
+            "165",
+            "34",
+            "92",
+            "104",
+            "67",
+            "108",
+            "93",
+            "2",
+            "114",
+            "154",
+            "159",
+            "128",
+            "76",
+            "169",
+            "115",
+            "112",
+            "36",
+            "71",
+            "30",
+            "157",
+            "122",
+            "126",
+            "127",
+            "61",
+            "131",
+            "13",
+            "14",
+            "60",
+            "103",
+            "160",
+            "5",
+            "88",
+            "25",
+            "47",
+            "72",
+            "97",
+            "11",
+            "48",
+            "116",
+            "105",
+            "69",
+            "119",
+            "18",
+            "121",
+            "21",
+            "70",
+            "130",
+            "53",
+            "23",
+            "57",
+            "158",
+            "147",
+            "63",
+            "144",
+            "50",
+            "75",
+            "46"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/klady_wms/service.svc/get",
+        "layers": [
+            "14",
+            "6",
+            "8",
+            "4",
+            "5",
+            "2",
+            "10",
+            "12",
+            "13",
+            "3",
+            "9",
+            "1",
+            "11"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_dmr3_wms/service.svc/get",
+        "layers": [
+            "0",
+            "1",
+            "2"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_vegetacia_wms_featureinfo/service.svc/get",
+        "layers": [
+            "",
+            "6",
+            "8",
+            "4",
+            "5",
+            "2",
+            "10",
+            "12",
+            "3",
+            "9",
+            "1",
+            "13",
+            "7"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_referencny_geodeticky_bod_wms_featureinfo/service.svc/get",
+        "layers": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/zbgis_letecko_navigacne_informacie_wms_featureinfo/service.svc/get",
+        "layers": [
+            "0",
+            "1"
+        ]
+    },
+    {
+        "url": "https://zbgisws.skgeodesy.sk/ZMSR_wms/service.svc/get",
+        "layers": [
+            "4",
+            "5",
+            "0",
+            "2",
+            "3",
+            "1"
+        ]
+    },
+    {
+        "url": "http://ortofoto.dataprocon.cz/cgi-bin/mapserv?map=/mnt/data/mapfiles/lednicke_rovne3857.map",
+        "layers": [
+            "ortofoto"
+        ]
+    }    
 ]
